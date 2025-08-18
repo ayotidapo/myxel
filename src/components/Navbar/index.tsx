@@ -40,7 +40,12 @@ const Navbar = () => {
           onChange={(e) => setText(e?.target?.value)}
         />
         <Search className='absolute top-2 left-2' />
-        {text.length > 1 && <CClose className='absolute top-2 right-2 cursor-pointer' onClick={() => setText('')} />}
+        {text.length > 1 && (
+          <CClose
+            className='absolute top-[15px] right-2 h-4 w-4 cursor-pointer text-[#525252]'
+            onClick={() => setText('')}
+          />
+        )}
       </div>
     </div>
   );

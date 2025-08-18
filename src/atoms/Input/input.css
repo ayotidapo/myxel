@@ -3,5 +3,5 @@
 }
 
 .input {
-  @apply h-[43px] w-full text-[12px] text-[#919191] ring-[0.5px] focus:outline-[#4545FE];
+  @apply h-[43px] w-full text-[12px] text-[#919191] ring-[0.5px] outline-1 focus:outline-[#4545FE];
 }
