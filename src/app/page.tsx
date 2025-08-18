@@ -8,7 +8,11 @@ import Close from '@/icons/Close';
 import House from '@/icons/House';
 import Search from '@/icons/Search';
 import Users from '@/icons/Users';
+import DropDown from '@/atoms/DropDown';
 import Image from 'next/image';
+import Navigate from '@/icons/Navigate';
+import Arrow from '@/icons/Arrow';
+import CClose from '@/icons/CClose';
 
 export default function Home() {
   return (
@@ -23,13 +27,124 @@ export default function Home() {
             <Button>
               <Icon id='calculator' />
             </Button>
-            <Button>
-              <Icon id='calendar' />
-            </Button>
+            <DropDown
+              component={
+                <Button className='calendar'>
+                  <Icon id='calendar' />
+                </Button>
+              }
+              className='calendar_dropdown'
+            >
+              <section className='calendar bg-[#0D0D0D] text-[#ffffff]'>
+                <div className='flex h-[50px] items-center gap-2 bg-[#171717] px-5'>
+                  <Arrow /> <span className='text-[16px] font-semibold'>Calendar</span>
+                  <Close className='ml-auto' />
+                </div>
+                <div className='p-5'>
+                  <div className='mb-4 flex justify-center gap-7'>
+                    <Navigate />
+                    <h3 className='text-[16px] font-semibold'> November 2023 </h3>
+                    <Navigate className='rotate-180' />
+                  </div>
+                  <table className='h-[827px] w-[400px]'>
+                    <thead className='text-[7.58px]'>
+                      <tr className='h-[20.36px]'>
+                        <th>SUN</th>
+                        <th>MON</th>
+                        <th>TUE</th>
+                        <th>WED</th>
+                        <th>THURS</th>
+                        <th>FRI</th>
+                        <th>SAT</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th>29</th>
+                        <th>30</th>
+                        <th>31</th>
+                        <th>NOV 1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                      </tr>
+                      <tr>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                      </tr>
+                      <tr>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                        <th>18</th>
+                      </tr>
+                      <tr>
+                        <th>19</th>
+                        <th>20</th>
+                        <th>21</th>
+                        <th>22</th>
+                        <th>23</th>
+                        <th>24</th>
+                        <th>25</th>
+                      </tr>
+                      <tr>
+                        <th>26</th>
+                        <th>27</th>
+                        <th>28</th>
+                        <th>29</th>
+                        <th>30</th>
+                        <th>31</th>
+                        <th>DEC 1</th>
+                      </tr>
+                      <tr>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+            </DropDown>
             <Button disabled>
               <Icon id='message' />
             </Button>
-            <span className='initial'>D</span>
+
+            <DropDown
+              component={
+                <span className='initial relative'>
+                  D
+                  <span className='name_email'>
+                    <span className='text-[#525252]] text-[16px] font-medium'>Dylan Frank</span>
+                    <span className='block text-sm text-[#919191]'>dylanfran96@gmail.com</span>
+                  </span>
+                </span>
+              }
+              className='settings_dropdown'
+            >
+              <div className='settings__ hidden h-[475px] w-[360px] p-3.5'></div>
+            </DropDown>
           </div>
         </div>
         <div className='navigation__wrapper'>
@@ -59,7 +174,7 @@ export default function Home() {
           <div className='relative'>
             <Input className='nav_input' placeholder='Search listings, users here...' />
             <Search className='absolute top-2 left-2' />
-            <Close className='absolute top-2 right-2 cursor-pointer' />
+            <CClose className='absolute top-2 right-2 cursor-pointer' />
           </div>
         </div>
       </header>
@@ -300,7 +415,6 @@ export default function Home() {
               </div>
             </div>
           </article>
-          <div className='chart'></div>
         </section>
       </main>
     </div>

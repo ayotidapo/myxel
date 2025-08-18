@@ -7,17 +7,23 @@ const Close: React.FC<Props> = (props) => {
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      viewBox='0 0 20 20'
-      fill='#343330'
-      className={`${className}`}
       width='24'
-      height='24'
+      height='25'
+      fill='none'
+      viewBox='0 0 24 25'
+      className={className}
     >
-      <path
-        fillRule='evenodd'
-        d='M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM8.28 7.22a.75.75 0 0 0-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 1 0 1.06 1.06L10 11.06l1.72 1.72a.75.75 0 1 0 1.06-1.06L11.06 10l1.72-1.72a.75.75 0 0 0-1.06-1.06L10 8.94 8.28 7.22Z'
-        clipRule='evenodd'
-      />
+      <g clipPath='url(#clip0_18_1046)'>
+        <path
+          fill='#fff'
+          d='m12 11.436 4.95-4.95L18.366 7.9l-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95L5.637 17.8l4.95-4.95-4.95-4.95L7.05 6.486z'
+        ></path>
+      </g>
+      <defs>
+        <clipPath id='clip0_18_1046'>
+          <path fill='#fff' d='M0 .85h24v24H0z'></path>
+        </clipPath>
+      </defs>
     </svg>
   );
 };

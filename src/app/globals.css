@@ -54,11 +54,19 @@ svg {
 }
 
 .initial {
-  @apply inline-flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-white text-[23px] font-medium;
+  @apply relative inline-flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-white text-[23px] font-medium;
+}
+
+.name_email {
+  @apply invisible absolute top-[44px] right-0 z-10 inline-block rounded-xl bg-[#f5f5f5] px-4 py-2 opacity-0;
+  transition: all 0.2s linear;
+}
+.initial:hover > .name_email {
+  @apply visible opacity-100;
 }
 
 .navigation__wrapper {
-  @apply p-app-spacing flex h-[67px] items-center gap-5 bg-white;
+  @apply p-app-spacing sticky top-0 flex h-[67px] items-center gap-5 bg-white;
 }
 
 .navigations {
@@ -123,43 +131,19 @@ svg {
   @apply grid grid-cols-[repeat(auto-fill,minmax(322px,1fr))] gap-4 py-6;
 }
 
-.chart {
-  display: flex;
-  align-items: flex-end;
-  gap: 1rem;
-  height: 200px; /* chart height */
-  padding: 1rem;
-  border-left: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+.dropdown.settings_dropdown .dropdown__content {
+  @apply top-[44px] -left-[331px];
 }
 
-.bar-group {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.calendar_dropdown.dropdown > .dropdown__content {
+  @apply top-[62px] -left-[204px];
 }
 
-.bar-group span {
-  margin-top: 0.5rem;
-  font-size: 0.75rem;
-  color: #888;
+.calendar.btn {
+  @apply min-w-auto bg-transparent;
 }
 
-.bar {
-  width: 20px;
-  margin: 0 2px;
-  background-color: gray;
-  transition: all 0.3s;
-}
-
-.bar.blue {
-  background-color: #3b5bff;
-}
-
-.bar.green {
-  background-color: #34c759;
-}
-
-.bar.red {
-  background-color: #ff6b6b;
+.calendar th,
+td {
+  @apply border-[0.2px] border-[#242424] p-[5px] text-left align-top text-[9.94px] font-medium text-[#969696];
 }
