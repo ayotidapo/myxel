@@ -8,7 +8,12 @@ const Calendar = () => {
     <section className='calendar bg-[#0D0D0D] text-[#ffffff]'>
       <div className='flex h-[50px] items-center gap-2 bg-[#171717] px-5'>
         <Arrow /> <span className='text-[16px] font-semibold'>Calendar</span>
-        <Close className='ml-auto' />
+        <Close
+          className='ml-auto'
+          onClick={() => {
+            document.getElementById('dropDown')?.blur();
+          }}
+        />
       </div>
       <div className='p-5'>
         <div className='mb-4 flex justify-center gap-7'>

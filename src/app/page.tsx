@@ -7,7 +7,7 @@ import DropDown from '@/atoms/DropDown';
 import Image from 'next/image';
 
 import Modal from '@/atoms/Modal';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import Calendar from '@/components/Calendar';
 import BudgetSetup from '@/components/BudgetSetup';
 import BarChart from '@/components/BarChart';
@@ -18,6 +18,8 @@ import Navbar from '@/components/Navbar';
 
 export default function Home() {
   const [open, setOpen] = useState(false);
+
+  const dropdownRef = useRef<HTMLDivElement>(null);
   return (
     <div className='container__'>
       <Modal open={open} onClose={() => setOpen(false)} bodyClose>
@@ -84,7 +86,7 @@ export default function Home() {
             </div>
             <hr className='my-3.5 border-[#E4E4E4]' />
             <div className='flex items-center pr-5 pl-3'>
-              <CNavigate className='mr-5 cursor-pointer' />
+              <CNavigate className='mr-5 cursor-pointer text-[#919191]' />
               <BarChart />
               <CNavigate className='mx-2.5 rotate-180 cursor-pointer' />
               <Metrics />

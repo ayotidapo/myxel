@@ -1,9 +1,10 @@
 interface Props {
   className?: string;
+  onClick?: (e: React.MouseEvent<SVGSVGElement> | undefined) => void;
 }
 
 const Close: React.FC<Props> = (props) => {
-  const { className = '' } = props;
+  const { className = '', ...rest } = props;
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
@@ -12,6 +13,7 @@ const Close: React.FC<Props> = (props) => {
       fill='none'
       viewBox='0 0 24 25'
       className={className}
+      {...rest}
     >
       <g clipPath='url(#clip0_18_1046)'>
         <path

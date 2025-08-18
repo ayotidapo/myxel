@@ -2,6 +2,7 @@ import './input.css';
 
 interface Props {
   type?: 'text' | 'password';
+  value: string;
   readOnly?: boolean;
   disabled?: boolean;
   className?: string;

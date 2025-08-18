@@ -2,10 +2,11 @@ import Input from '@/atoms/Input';
 import { Application, Home_, Portfolio, Reques, User } from '@/icons';
 import CClose from '@/icons/CClose';
 import Search from '@/icons/Search';
-import React from 'react';
+import React, { useState } from 'react';
 import './navbar.css';
 
 const Navbar = () => {
+  const [text, setText] = useState('');
   return (
     <div className='navigation__wrapper'>
       <nav className='navigations'>
@@ -17,7 +18,7 @@ const Navbar = () => {
             <Portfolio />
             <span>Listing</span>
           </li>
-          <li className='active_nav'>
+          <li>
             <User />
             <span>Users</span>
           </li>
@@ -32,9 +33,14 @@ const Navbar = () => {
         </ul>
       </nav>
       <div className='relative'>
-        <Input className='nav_input' placeholder='Search listings, users here...' />
+        <Input
+          className='nav_input'
+          placeholder='Search listings, users here...'
+          value={text}
+          onChange={(e) => setText(e?.target?.value)}
+        />
         <Search className='absolute top-2 left-2' />
-        <CClose className='absolute top-2 right-2 cursor-pointer' />
+        {text.length > 1 && <CClose className='absolute top-2 right-2 cursor-pointer' onClick={() => setText('')} />}
       </div>
     </div>
   );

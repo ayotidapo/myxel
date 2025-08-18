@@ -14,7 +14,7 @@ const CNavigate: React.FC<Props> = (props) => {
       className={className}
     >
       <circle cx='9' cy='9' r='9' fill='#F5F5F5' transform='rotate(180 9 9)'></circle>
-      <path fill='#919191' d='m6.75 9 3.375-3.375v6.75z'></path>
+      <path fill='currentColor' d='m6.75 9 3.375-3.375v6.75z'></path>
     </svg>
   );
 };

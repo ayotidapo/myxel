@@ -35,7 +35,7 @@ svg {
 }
 
 .header__ {
-  @apply p-app-spacing bg-black_ flex justify-between;
+  @apply bg-black_ flex justify-between p-[0_80px];
 
   height: 82px;
 }
