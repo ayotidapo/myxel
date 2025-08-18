@@ -82,78 +82,78 @@ export default function Home() {
             </div>
             <hr className='my-3.5 border-[#E4E4E4]' />
             <div className='flex px-5'>
-              <div className='flex flex-1 gap-4 border border-amber-500'>
+              <div className='flex flex-1 gap-6 border border-amber-500 pl-7'>
                 <div className='flex w-[18px] flex-col'>
                   <div className='bar__container flex flex-1 items-end justify-between'>
-                    <span className='inline-flex h-[80%] w-[4px] bg-black'></span>
-                    <span className='inline-flex h-[70%] w-[4px] bg-green-500'></span>
-                    <span className='inline-flex h-[70%] w-[4px] bg-blue-500'></span>
+                    <span className='inline-flex h-[99px] w-[4px] bg-[#4545FE]'></span>
+                    <span className='inline-flex h-[78px] w-[4px] bg-[#12B76A]'></span>
+                    <span className='inline-flex h-[30px] w-[4px] bg-[#F04438]'></span>
                   </div>
                   <span className='month text-[10px] font-medium text-[#919191]'>Jan</span>
                 </div>
                 <div className='flex w-[18px] flex-col'>
                   <div className='bar__container flex flex-1 items-end justify-between'>
-                    <span className='inline-flex h-[80%] w-[4px] bg-black'></span>
-                    <span className='inline-flex h-[70%] w-[4px] bg-green-500'></span>
-                    <span className='inline-flex h-[70%] w-[4px] bg-blue-500'></span>
+                    <span className='inline-flex h-[18px] w-[4px] bg-[#4545FE]'></span>
+                    <span className='inline-flex h-[78px] w-[4px] bg-[#12B76A]'></span>
+                    <span className='inline-flex h-[30px] w-[4px] bg-[#F04438]'></span>
                   </div>
-                  <span className='month text-[10px] font-medium text-[#919191]'>Jan</span>
+                  <span className='month text-[10px] font-medium text-[#919191]'>Feb</span>
                 </div>
                 <div className='flex w-[18px] flex-col'>
                   <div className='bar__container flex flex-1 items-end justify-between'>
-                    <span className='inline-flex h-[80%] w-[4px] bg-black'></span>
-                    <span className='inline-flex h-[70%] w-[4px] bg-green-500'></span>
-                    <span className='inline-flex h-[70%] w-[4px] bg-blue-500'></span>
+                    <span className='inline-flex h-[42px] w-[4px] bg-[#4545FE]'></span>
+                    <span className='inline-flex h-[21px] w-[4px] bg-[#12B76A]'></span>
+                    <span className='inline-flex h-[11px] w-[4px] bg-[#F04438]'></span>
                   </div>
-                  <span className='month text-[10px] font-medium text-[#919191]'>Jan</span>
+                  <span className='month text-[10px] font-medium text-[#919191]'>Mar</span>
                 </div>
                 <div className='flex w-[18px] flex-col'>
                   <div className='bar__container flex flex-1 items-end justify-between'>
-                    <span className='inline-flex h-[80%] w-[4px] bg-black'></span>
-                    <span className='inline-flex h-[70%] w-[4px] bg-green-500'></span>
-                    <span className='inline-flex h-[70%] w-[4px] bg-blue-500'></span>
+                    <span className='inline-flex h-[42px] w-[4px] bg-[#4545FE]'></span>
+                    <span className='inline-flex h-[72px] w-[4px] bg-[#12B76A]'></span>
+                    <span className='inline-flex h-[30px] w-[4px] bg-[#F04438]'></span>
                   </div>
-                  <span className='month text-[10px] font-medium text-[#919191]'>Jan</span>
+                  <span className='month text-[10px] font-medium text-[#919191]'>Apr</span>
                 </div>
                 <div className='flex w-[18px] flex-col'>
                   <div className='bar__container flex flex-1 items-end justify-between'>
-                    <span className='inline-flex h-[80%] w-[4px] bg-black'></span>
-                    <span className='inline-flex h-[70%] w-[4px] bg-green-500'></span>
-                    <span className='inline-flex h-[70%] w-[4px] bg-blue-500'></span>
+                    <span className='inline-flex h-[30px] w-[4px] bg-[#4545FE]'></span>
+                    <span className='inline-flex h-[8px] w-[4px] bg-[#12B76A]'></span>
+                    <span className='inline-flex h-[23px] w-[4px] bg-[#F04438]'></span>
                   </div>
-                  <span className='month text-[10px] font-medium text-[#919191]'>Jan</span>
+                  <span className='month text-[10px] font-medium text-[#919191]'>May</span>
                 </div>
                 <div className='flex w-[18px] flex-col'>
                   <div className='bar__container flex flex-1 items-end justify-between'>
-                    <span className='inline-flex h-[80%] w-[4px] bg-black'></span>
-                    <span className='inline-flex h-[70%] w-[4px] bg-green-500'></span>
-                    <span className='inline-flex h-[70%] w-[4px] bg-blue-500'></span>
+                    <span className='inline-flex h-[102px] w-[4px] bg-[#4545FE]'></span>
+                    <span className='inline-flex h-[136px] w-[4px] bg-[#12B76A]'></span>
+                    <span className='inline-flex h-[23px] w-[4px] bg-[#F04438]'></span>
                   </div>
-                  <span className='month text-[10px] font-medium text-[#919191]'>Jan</span>
+                  <span className='month text-[10px] font-medium text-[#919191]'>Jun</span>
                 </div>
                 <div className='flex w-[18px] flex-col'>
                   <div className='bar__container flex flex-1 items-end justify-between'>
-                    <span className='inline-flex h-[80%] w-[4px] bg-black'></span>
-                    <span className='inline-flex h-[70%] w-[4px] bg-green-500'></span>
-                    <span className='inline-flex h-[70%] w-[4px] bg-blue-500'></span>
+                    <span className='inline-flex h-[69px] w-[4px] bg-[#4545FE]'></span>
+                    <span className='inline-flex h-[104px] w-[4px] bg-[#12B76A]'></span>
+                    <span className='inline-flex h-[53px] w-[4px] bg-[#F04438]'></span>
                   </div>
-                  <span className='month text-[10px] font-medium text-[#919191]'>Jan</span>
+                  <span className='month text-[10px] font-medium text-[#919191]'>Jul</span>
                 </div>
                 <div className='flex w-[18px] flex-col'>
                   <div className='bar__container flex flex-1 items-end justify-between'>
-                    <span className='inline-flex h-[80%] w-[4px] bg-black'></span>
-                    <span className='inline-flex h-[70%] w-[4px] bg-green-500'></span>
-                    <span className='inline-flex h-[70%] w-[4px] bg-blue-500'></span>
+                    <span className='inline-flex h-[69px] w-[4px] bg-[#4545FE]'></span>
+                    <span className='inline-flex h-[22px] w-[4px] bg-[#12B76A]'></span>
+                    <span className='inline-flex h-[53px] w-[4px] bg-[#F04438]'></span>
                   </div>
-                  <span className='month text-[10px] font-medium text-[#919191]'>Jan</span>
+                  <span className='month text-[10px] font-medium text-[#919191]'>Aug</span>
                 </div>
                 <div className='flex w-[18px] flex-col'>
                   <div className='bar__container flex flex-1 items-end justify-between'>
-                    <span className='inline-flex h-[80%] w-[4px] bg-black'></span>
-                    <span className='inline-flex h-[70%] w-[4px] bg-green-500'></span>
-                    <span className='inline-flex h-[70%] w-[4px] bg-blue-500'></span>
+                    <span className='inline-flex h-[104px] w-[4px] bg-[#4545FE]'></span>
+                    <span className='inline-flex h-[96px] w-[4px] bg-[#12B76A]'></span>
+                    <span className='inline-flex h-[22px] w-[4px] bg-[#F04438]'></span>
                   </div>
-                  <span className='month text-[10px] font-medium text-[#919191]'>Jan</span>
+                  <span className='month text-[10px] font-medium text-[#919191]'>Sep</span>
                 </div>
               </div>
               <div className='grid flex-1 grid-cols-2 gap-3'>
