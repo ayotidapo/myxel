@@ -50,14 +50,26 @@
     </symbol>
 
 
-     <symbol id="c-arrow" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="c-arrow" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M5.99935 0.167969C9.21935 0.167969 11.8327 2.7813 11.8327 6.0013C11.8327 9.2213 9.21935 11.8346 5.99935 11.8346C2.77935 11.8346 0.166016 9.2213 0.166016 6.0013C0.166016 2.7813 2.77935 0.167969 5.99935 0.167969ZM6.58268 6.0013H8.33268L5.99935 3.66797L3.66602 6.0013H5.41602V8.33463H6.58268V6.0013Z" fill="#12B76A"/>
     </symbol>
 
 
-<symbol id="caret" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M3.87852 4.99956L0.166016 1.28706L1.22652 0.226562L5.99952 4.99956L1.22652 9.77256L0.166016 8.71206L3.87852 4.99956Z" fill="#4545FE"/>
-</symbol>
+    <symbol id="caret" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3.87852 4.99956L0.166016 1.28706L1.22652 0.226562L5.99952 4.99956L1.22652 9.77256L0.166016 8.71206L3.87852 4.99956Z" fill="#4545FE"/>
+    </symbol>
+    
+
+    <symbol id="calculator" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M33.3333 73.3327H46.6667C63.3333 73.3327 70 66.666 70 49.9994V29.9994C70 13.3327 63.3333 6.66602 46.6667 6.66602H33.3333C16.6667 6.66602 10 13.3327 10 29.9994V49.9994C10 66.666 16.6667 73.3327 33.3333 73.3327Z" stroke="white" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M55 25.2676V28.6009C55 31.3342 52.7667 33.6009 50 33.6009H30C27.2667 33.6009 25 31.3676 25 28.6009V25.2676C25 22.5342 27.2333 20.2676 30 20.2676H50C52.7667 20.2676 55 22.5009 55 25.2676Z" stroke="white" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M27.1204 46.6667H27.1589" stroke="white" stroke-width="4.66667" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M39.9847 46.6667H40.0232" stroke="white" stroke-width="4.66667" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M52.846 46.6667H52.8845" stroke="white" stroke-width="4.66667" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M27.1204 58.3327H27.1589" stroke="white" stroke-width="4.66667" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M39.9847 58.3327H40.0232" stroke="white" stroke-width="4.66667" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M52.846 58.3327H52.8845" stroke="white" stroke-width="4.66667" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
 
 
 

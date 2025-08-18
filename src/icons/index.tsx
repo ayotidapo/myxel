@@ -67,4 +67,65 @@ const Application = () => {
   );
 };
 
-export { Home_, Portfolio, User, Reques, Application };
+const SetUp = () => (
+  <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' viewBox='0 0 24 24'>
+    <path
+      stroke='#52525B'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      strokeMiterlimit='10'
+      strokeWidth='1.5'
+      d='M22 6.5h-6M6 6.5H2M10 10a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M22 17.5h-4'
+    ></path>
+    <path
+      stroke='#292D32'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      strokeMiterlimit='10'
+      strokeWidth='1.5'
+      d='M8 17.5H2'
+    ></path>
+    <path
+      stroke='#52525B'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      strokeMiterlimit='10'
+      strokeWidth='1.5'
+      d='M14 21a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7'
+    ></path>
+  </svg>
+);
+
+const Track = () => (
+  <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' viewBox='0 0 24 24'>
+    <path
+      stroke='#52525B'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      strokeWidth='1.5'
+      d='m16.5 9.5-4.2 4.2-1.6-2.4-3.2 3.2'
+    ></path>
+    <path stroke='#52525B' strokeLinecap='round' strokeLinejoin='round' strokeWidth='1.5' d='M14.5 9.5h2v2'></path>
+    <path
+      stroke='#52525B'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      strokeWidth='1.5'
+      d='M9 22h6c5 0 7-2 7-7V9c0-5-2-7-7-7H9C4 2 2 4 2 9v6c0 5 2 7 7 7'
+    ></path>
+  </svg>
+);
+
+const Adjust = () => (
+  <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' viewBox='0 0 24 24'>
+    <path
+      stroke='#52525B'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      strokeWidth='1.5'
+      d='M19.26 18.9V7.1c0-1.5-.64-2.1-2.23-2.1h-1.04c-1.59 0-2.23.6-2.23 2.1v11.8M5.26 18.9v-6.8c0-1.5.64-2.1 2.23-2.1h1.04c1.59 0 2.23.6 2.23 2.1v6.8M2 19h20'
+    ></path>
+  </svg>
+);
+
+export { Home_, Portfolio, User, Reques, Application, SetUp, Track, Adjust };

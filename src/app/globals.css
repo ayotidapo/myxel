@@ -147,3 +147,7 @@ svg {
 td {
   @apply border-[0.2px] border-[#242424] p-[5px] text-left align-top text-[9.94px] font-medium text-[#969696];
 }
+
+.btn.budget {
+  @apply mx-auto mt-2 h-[46px] w-[344px] rounded-full bg-[#18181B] text-[#ffffff];
+}

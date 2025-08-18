@@ -1,7 +1,8 @@
+'use client';
 import Button from '@/atoms/Button';
 import Icon from '@/atoms/Icon';
 import Input from '@/atoms/Input';
-import { Application, Home_, Portfolio, Reques, User } from '@/icons';
+import { Adjust, Application, Home_, Portfolio, Reques, SetUp, Track, User } from '@/icons';
 import CArrow from '@/icons/CArrow';
 import Caret from '@/icons/Caret';
 import Close from '@/icons/Close';
@@ -13,10 +14,58 @@ import Image from 'next/image';
 import Navigate from '@/icons/Navigate';
 import Arrow from '@/icons/Arrow';
 import CClose from '@/icons/CClose';
+import Modal from '@/atoms/Modal';
+import Calculator from '@/icons/Calculator';
 
 export default function Home() {
   return (
     <div className='container__'>
+      <Modal open={true} onClose={() => null} bodyClose>
+        <div className='w-[438px] rounded-[10px]'>
+          <div className='flex h-[213px] justify-center rounded-tl-[12px] rounded-tr-[12px] bg-[#0C2841] pt-[25px]'>
+            <div className='relative flex w-[385.05px] items-center justify-center rounded-tl-[12px] rounded-tr-[12px]'>
+              <Image src='/assets/overlay.png' fill alt='overlay' />
+              <Calculator className='relative' />
+            </div>
+          </div>
+          <section className='rounded-br-[12px] rounded-bl-[12px] bg-[#ffffff] py-4'>
+            <article className='flex items-center gap-4 px-7 py-2'>
+              <SetUp />
+              <div className='flex-1'>
+                <span className='block text-[16px] font-semibold text-[#191919]'>
+                  Set up annual budgets by account category
+                </span>
+                <small className='ext-[#606060] text-[12px]'>
+                  Allocate funds across income and expense lines with full visibility.
+                </small>
+              </div>
+            </article>
+            <article className='flex items-center gap-4 px-7 py-2'>
+              <Track />
+              <div className='flex-1'>
+                <span className='block text-[16px] font-semibold text-[#191919]'>
+                  Set up annual budgets by account category
+                </span>
+                <small className='ext-[#606060] text-[12px]'>
+                  Allocate funds across income and expense lines with full visibility.
+                </small>
+              </div>
+            </article>
+            <article className='flex items-center gap-4 px-7 py-2'>
+              <Adjust />
+              <div className='flex-1'>
+                <span className='block text-[16px] font-semibold text-[#191919]'>
+                  Set up annual budgets by account category
+                </span>
+                <small className='ext-[#606060] text-[12px]'>
+                  Allocate funds across income and expense lines with full visibility.
+                </small>
+              </div>
+            </article>
+            <Button className='budget'>Create Budget</Button>
+          </section>
+        </div>
+      </Modal>
       <header>
         <div className='header__'>
           <Image src='/logo.png' alt='logo' width={154} height={26} className='object-contain' />
@@ -178,7 +227,7 @@ export default function Home() {
           </div>
         </div>
       </header>
-      <main className='p-app-spacing pb-20'>
+      <main className='p-app-spacing pb-7'>
         <h3 className='h3'>Welcome, Ahmed</h3>
         <section className='overview'>
           <div className='corner-round overview_left__section'>
@@ -371,7 +420,7 @@ export default function Home() {
         </section>
         <section className='carousel_wrapper'>
           <article className='relative h-[286px] overflow-hidden rounded-xl'>
-            <Image src='/assets/building3.png' alt='building1' fill />
+            <Image src='/assets/building2.png' alt='building1' fill />
             <div className='absolute z-20 flex h-full w-full flex-col justify-end bg-linear-[to_bottom,rgba(0,0,0,0.05),rgba(0,0,0,0.6)] px-5'>
               <div className='mb-2 text-white'>
                 <span className='block text-sm font-medium'>MOST CLICKED</span>
