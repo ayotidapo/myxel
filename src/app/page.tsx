@@ -65,7 +65,7 @@ export default function Home() {
         </div>
         <Navbar />
       </header>
-      <main className='p-app-spacing pb-2'>
+      <main className='p-[0_80px] pb-2'>
         <h3 className='h3'>Welcome, Ahmed</h3>
         <section className='overview'>
           <div className='corner-round overview_left__section'>
