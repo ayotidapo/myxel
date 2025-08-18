@@ -85,7 +85,7 @@ export default function Home() {
               <span className='active_nav inline-block px-[21px] py-1.5'>1 Year</span>
             </div>
             <hr className='my-3.5 border-[#E4E4E4]' />
-            <div className='flex items-center pr-5 pl-3'>
+            <div className='bar_chart_wrapper'>
               <CNavigate className='mr-5 cursor-pointer text-[#919191]' />
               <BarChart />
               <CNavigate className='mx-2.5 rotate-180 cursor-pointer' />

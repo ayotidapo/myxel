@@ -52,3 +52,13 @@ const Navbar = () => {
 };
 
 export default Navbar;
+//navigation__wrapper => flex-direction: column;
+//overview: height:auto , flex-direction: column;
+
+//overview_right__section => flex-direction: row; width:auto gap:20px
+
+// overview_right__section > article => flex:1
+
+//replace padding: 0 80px with padding: 0 20px;
+
+//bar_chart_wrapper =>flex-direction: column; align-items: stretch;

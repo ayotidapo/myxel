@@ -152,3 +152,7 @@ td {
 .btn.budget {
   @apply mx-auto mt-2 h-[46px] w-[344px] rounded-full bg-[#18181B] text-[#ffffff];
 }
+
+.bar_chart_wrapper {
+  @apply flex items-center pr-5 pl-3;
+}
