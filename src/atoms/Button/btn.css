@@ -1,0 +1,22 @@
+.btn {
+  height: 43px;
+  min-width: 100px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #ececec;
+  border-radius: 10px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: scale 0.2s linear;
+  @apply cursor-pointer;
+}
+
+.btn:active {
+  @apply active:scale-95;
+}
+
+.btn:disabled {
+  @apply opacity-25 hover:cursor-not-allowed active:scale-100;
+}
