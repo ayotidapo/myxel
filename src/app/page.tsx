@@ -82,8 +82,16 @@ export default function Home() {
             </div>
             <hr className='my-3.5 border-[#E4E4E4]' />
             <div className='flex px-5'>
-              <div className='y-axis'></div>
-              <div className='flex flex-1 gap-6 border border-amber-500 pl-7'>
+              <div className='y-axis flex w-[26px] flex-col justify-between border-r border-r-[#E4E4E4] text-[10px] text-[#919191]'>
+                <span>50m</span>
+                <span>40m</span>
+                <span>30m</span>
+                <span>20m</span>
+                <span>10m</span>
+                <span>0</span>
+                <span className='opacity-0'>.</span>
+              </div>
+              <div className='flex flex-1 gap-6 pl-4'>
                 <div className='bar_month__div flex w-[18px] flex-col'>
                   <div className='bar__container flex flex-1 items-end justify-between'>
                     <span className='inline-flex h-[99px] w-[4px] bg-[#4545FE]'></span>
