@@ -103,7 +103,7 @@ svg {
 }
 
 .overview_right__section {
-  @apply xxs:flex-col xxs:w-auto xxs:gap-[20px] xxl:gap-0 flex justify-between md:flex-row xl:w-[407px] xl:flex-col;
+  @apply xxs:flex-col xxs:w-auto flex justify-between gap-[20px] md:flex-row xl:w-[407px] xl:flex-col;
 }
 
 .overview_right__section > article {
