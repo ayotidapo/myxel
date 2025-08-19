@@ -85,9 +85,8 @@ export default function Home() {
             </div>
             <hr className='my-3.5 border-[#E4E4E4]' />
             <div className='bar_chart_wrapper'>
-              <CNavigate className='mr-5 cursor-pointer text-[#919191]' />
               <BarChart />
-              <CNavigate className='mx-2.5 rotate-180 cursor-pointer' />
+
               <Metrics />
             </div>
           </div>
