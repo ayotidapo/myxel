@@ -5,7 +5,7 @@ import React from 'react';
 const BarChart = () => {
   return (
     <div className='xxs:mb-5 xxl:mb-0 flex'>
-      <CNavigate className='mr-5 cursor-pointer self-center text-[#919191]' />
+      <CNavigate className='xxs:mr-2 xs:block xs:mr-5 cursor-pointer self-center text-[#919191]' />
       <div className='y-axis flex w-[26px] flex-col justify-between border-r border-r-[#E4E4E4] text-[10px] text-[#919191]'>
         <span>50m</span>
         <span>40m</span>
@@ -89,7 +89,7 @@ const BarChart = () => {
           <span className='month text-[10px] font-medium text-[#919191]'>Sep</span>
         </div>
       </div>
-      <CNavigate className='mx-2.5 rotate-180 cursor-pointer self-center' />
+      <CNavigate className='xxs:hidden mx-2.5 rotate-180 cursor-pointer self-center' />
     </div>
   );
 };

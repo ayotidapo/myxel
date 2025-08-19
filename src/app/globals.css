@@ -103,11 +103,11 @@ svg {
 }
 
 .overview_right__section {
-  @apply xxs:flex-col xxs:w-auto xxs:gap-[20px] flex justify-between md:flex-row xl:w-[407px] xl:flex-col xl:gap-0;
+  @apply xxs:flex-col xxs:w-auto xxs:gap-[20px] xxl:gap-0 flex justify-between md:flex-row xl:w-[407px] xl:flex-col;
 }
 
 .overview_right__section > article {
-  @apply xxs:w-full h-[152px] xl:w-auto;
+  @apply xxs:w-full xxs:flex-1 xxl:flex-none h-[152px] xl:w-auto;
 }
 
 .carousel_wrapper {
