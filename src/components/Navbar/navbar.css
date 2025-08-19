@@ -1,5 +1,5 @@
 .navigation__wrapper {
-  @apply xxs:flex-col xxs:h-[auto] xxs:p-[0_20px] sticky top-[0px] flex items-center gap-5 bg-white xl:h-[67px] xl:flex-row xl:p-[0_80px];
+  @apply xxs:flex-col xxs:h-[auto] xxs:p-[10px_20px] xxs:items-start sticky top-[0px] flex gap-5 bg-white lg:h-[67px] lg:flex-row lg:items-center xl:p-[0_80px];
 }
 
 .navigations {

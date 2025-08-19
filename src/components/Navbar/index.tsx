@@ -32,7 +32,7 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-      <div className='relative'>
+      <div className='xxs:self-end relative lg:self-center'>
         <Input
           className='nav_input'
           placeholder='Search listings, users here...'
