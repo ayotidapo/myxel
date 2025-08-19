@@ -115,7 +115,7 @@ svg {
 }
 
 .dropdown.settings_dropdown .dropdown__content {
-  @apply top-[44px] -left-[331px];
+  @apply xxs:-left-[236px] top-[44px] md:-left-[331px];
 }
 
 .calendar_dropdown.dropdown > .dropdown__content {
