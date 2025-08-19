@@ -71,7 +71,7 @@ svg {
 }
 
 .overview {
-  @apply xxs:h-[auto] xxs:flex-col flex gap-5 xl:h-[325px] xl:flex-row;
+  @apply xxs:flex-col flex min-h-[325px] gap-5 xl:flex-row;
 }
 
 .overview_left__section {
@@ -135,5 +135,5 @@ td {
 }
 
 .bar_chart_wrapper {
-  @apply xxs:flex-col xxs:items-stretch flex pr-5 pl-3 xl:flex-row xl:items-center;
+  @apply xxs:flex-col xxs:items-stretch flex pr-5 pl-3 lg:flex-row xl:items-center;
 }
