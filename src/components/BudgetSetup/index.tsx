@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const BudgetSetup = () => {
   return (
-    <div className='w-[438px] rounded-[10px]'>
+    <div className='xxs:w-full rounded-[10px] md:w-[438px]'>
       <div className='flex h-[213px] justify-center rounded-tl-[12px] rounded-tr-[12px] bg-[#0C2841] pt-[25px]'>
         <div className='relative flex w-[385.05px] items-center justify-center rounded-tl-[12px] rounded-tr-[12px]'>
           <Image src='/assets/overlay.png' fill alt='overlay' />

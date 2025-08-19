@@ -67,7 +67,7 @@ svg {
 }
 
 .input.nav_input {
-  @apply w-[319px] rounded-[12px] bg-[#f5f5f5] px-10 ring-[#E4E4E4];
+  @apply xxs:w-[250px] rounded-[12px] bg-[#f5f5f5] px-10 ring-[#E4E4E4] md:w-[319px];
 }
 
 .overview {
@@ -131,7 +131,7 @@ td {
 }
 
 .btn.budget {
-  @apply mx-auto mt-2 h-[46px] w-[344px] rounded-full bg-[#18181B] text-[#ffffff];
+  @apply xxs:w-[calc(100%_-_20px)] mx-auto mt-2 h-[46px] rounded-full bg-[#18181B] text-[#ffffff] md:w-[344px];
 }
 
 .bar_chart_wrapper {

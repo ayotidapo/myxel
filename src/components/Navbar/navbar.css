@@ -7,7 +7,7 @@
 }
 
 .ul {
-  @apply flex flex-wrap justify-between;
+  @apply xxs:flex-wrap flex justify-between md:flex-nowrap;
 }
 .ul > li {
   @apply xxs:px-5 flex cursor-pointer items-center gap-2 py-2 text-sm text-[#3D3D3D] xl:px-9;
