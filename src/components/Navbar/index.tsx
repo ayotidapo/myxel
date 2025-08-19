@@ -61,4 +61,4 @@ export default Navbar;
 
 //replace padding: 0 80px with padding: 0 20px;
 
-//bar_chart_wrapper =>flex-direction: column; align-items: stretch;
+//bar_chart_wrapper =>flex-direction: column; align-items: stretch; hide those small arrow

@@ -6,6 +6,8 @@
   --color-black_: #191919;
   --padding-app-spacing: 0 80px;
   --font-primary: var(--primary-font);
+  --breakpoint-xxs: 320px;
+  --breakpoint-xs: 500px;
 }
 
 :root {
@@ -35,9 +37,7 @@ svg {
 }
 
 .header__ {
-  @apply bg-black_ flex justify-between p-[0_80px];
-
-  height: 82px;
+  @apply bg-black_ xxs:p-[10px_20px] xxs:h-[100px] xxs:flex-col flex justify-between md:flex-row xl:h-[82px] xl:p-[0_80px];
 }
 
 .header__icons {
@@ -66,31 +66,12 @@ svg {
   @apply visible opacity-100;
 }
 
-/* .navigation__wrapper {
-  @apply p-app-spacing sticky top-0 flex h-[67px] items-center gap-5 bg-white;
-}
-
-.navigations {
-  @apply flex-1;
-} */
-
-/* .ul {
-  @apply flex justify-between;
-}
-.ul > li {
-  @apply flex cursor-pointer items-center gap-2 px-9 py-2 text-sm text-[#3D3D3D];
-}
-
-.active_nav {
-  @apply rounded-lg bg-[#f5f5f5] font-semibold text-[#191919];
-} */
-
 .input.nav_input {
   @apply w-[319px] rounded-[12px] bg-[#f5f5f5] px-10 ring-[#E4E4E4];
 }
 
 .overview {
-  @apply flex h-[325px] gap-5;
+  @apply xxs:h-[auto] xxs:flex-col flex gap-5 xl:h-[325px] xl:flex-row;
 }
 
 .overview_left__section {
@@ -121,15 +102,15 @@ svg {
 }
 
 .overview_right__section {
-  @apply flex w-[407px] flex-col justify-between;
+  @apply xxs:flex-col xxs:w-auto xxs:gap-[20px] flex justify-between md:flex-row xl:w-[407px] xl:flex-col xl:gap-0;
 }
 
 .overview_right__section > article {
-  @apply h-[152px];
+  @apply xxs:w-full h-[152px] xl:w-auto;
 }
 
 .carousel_wrapper {
-  @apply grid grid-cols-[repeat(auto-fill,minmax(322px,1fr))] gap-4 py-6;
+  @apply xxs:grid-cols-[repeat(auto-fill,minmax(250px,1fr))] grid gap-4 py-6 md:grid-cols-[repeat(auto-fill,minmax(322px,1fr))];
 }
 
 .dropdown.settings_dropdown .dropdown__content {
@@ -137,7 +118,7 @@ svg {
 }
 
 .calendar_dropdown.dropdown > .dropdown__content {
-  @apply top-[62px] -left-[204px];
+  @apply xxs:top-[50px] xxs:-left-[114px] xxs:w-[calc(100vw-20px)] md:top-[62px] md:-left-[263px] md:w-auto xl:-left-[204px];
 }
 
 .calendar.btn {
@@ -154,5 +135,5 @@ td {
 }
 
 .bar_chart_wrapper {
-  @apply flex items-center pr-5 pl-3;
+  @apply xxs:flex-col xxs:items-stretch flex pr-5 pl-3 xl:flex-row xl:items-center;
 }

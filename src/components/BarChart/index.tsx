@@ -13,7 +13,7 @@ const BarChart = () => {
         <span>0</span>
         <span className='opacity-0'>.</span>
       </div>
-      <div className='flex flex-1 gap-5 pl-4'>
+      <div className='xxs:gap-[5px] flex flex-1 pl-4 md:gap-5'>
         <div className='bar_month__div flex w-[18px] flex-col'>
           <div className='bar__container flex flex-1 items-end justify-between'>
             <span className='inline-flex h-[99px] w-[4px] bg-[#4545FE]'></span>
