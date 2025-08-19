@@ -11,10 +11,10 @@ import { useRef, useState } from 'react';
 import Calendar from '@/components/Calendar';
 import BudgetSetup from '@/components/BudgetSetup';
 import BarChart from '@/components/BarChart';
-import CNavigate from '@/icons/CNavigate';
 import Metrics from '@/components/Metrics';
 import Overview from '@/components/Overview';
 import Navbar from '@/components/Navbar';
+import Settings from '@/components/Settings';
 
 export default function Home() {
   const [open, setOpen] = useState(false);
@@ -61,7 +61,18 @@ export default function Home() {
               }
               className='settings_dropdown'
             >
-              <div className='settings__ hidden h-[475px] w-[360px] p-3.5'></div>
+              <div className='settings__ xxs:w-[calc(100vw-20px)] h-[475px] p-3.5 shadow md:w-[360px]'>
+                <div className='avatar_wrapper flex gap-2 rounded-lg border border-[#E4E4E4] bg-[#f5f5f5] p-4'>
+                  <span className='avatar flex h-13 w-13 items-center justify-center rounded-full bg-[#1A7F64] text-[28px] font-medium text-white'>
+                    D
+                  </span>
+                  <div>
+                    <span className='block text-lg font-semibold text-[#1a1a1a]'>Dylan Frank</span>
+                    <span className='text-sm text-[#666666]'>dylan96@gmail.com</span>
+                  </div>
+                </div>
+                <Settings />
+              </div>
             </DropDown>
           </div>
         </div>
