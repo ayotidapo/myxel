@@ -4,7 +4,7 @@ import React from 'react';
 
 const BarChart = () => {
   return (
-    <div className='xxs:mb-5 flex xl:mb-0'>
+    <div className='xxs:mb-5 xxl:mb-0 flex'>
       <CNavigate className='mr-5 cursor-pointer self-center text-[#919191]' />
       <div className='y-axis flex w-[26px] flex-col justify-between border-r border-r-[#E4E4E4] text-[10px] text-[#919191]'>
         <span>50m</span>

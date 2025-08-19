@@ -6,6 +6,7 @@
   --color-black_: #191919;
   --padding-app-spacing: 0 80px;
   --font-primary: var(--primary-font);
+  --breakpoint-xxl: 1440px;
   --breakpoint-xxs: 320px;
   --breakpoint-xs: 500px;
 }
@@ -135,5 +136,5 @@ td {
 }
 
 .bar_chart_wrapper {
-  @apply xxs:flex-col xxs:items-stretch flex pr-5 pl-3 lg:flex-row xl:items-center;
+  @apply xxs:flex-col xxs:items-stretch xxl:flex-row xxl:items-center flex pr-5 pl-3;
 }
