@@ -3,7 +3,7 @@ import React from 'react';
 
 const Metrics: React.FC = () => {
   return (
-    <div className='grid flex-1 grid-cols-2 gap-3'>
+    <div className='xxs:grid-cols-1 grid flex-1 gap-3 md:grid-cols-2'>
       <div className='h-[73px] rounded-xl border border-[#E4E4E4] p-2.5'>
         <h3 className='text-[19px] font-semibold text-[#4545FE]'>₦120,000,000.00</h3>
         <div className='mt-1.5 flex items-center gap-1.5 text-[10px]'>

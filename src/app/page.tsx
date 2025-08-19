@@ -67,16 +67,15 @@ export default function Home() {
         </div>
         <Navbar />
       </header>
-      <main className='p-[0_80px] pb-2'>
+      <main className='xxs:p-[0_20px] pb-2 xl:p-[0_80px]'>
         <h3 className='h3'>Welcome, Ahmed</h3>
         <section className='overview'>
           <div className='corner-round overview_left__section'>
-            <div className='flex items-center justify-between px-5'>
+            <div className='xxs:gap-[20px] xxs:flex-col xxs:mb-[20px] flex items-center justify-between px-5 md:mb-0 md:flex-row md:gap-0'>
               <div>
                 <h3 className='mt-1 mb-2.5 text-xl font-semibold text-[#191919]'>Sales Overview</h3>
                 <span className='text-xs text-[#606060]'>Showing overview Jan 2022 - Sep 2022</span>
               </div>
-
               <Button className='v_transaction'>View Transactions</Button>
             </div>
             <div className='duration_div'>
@@ -85,7 +84,7 @@ export default function Home() {
               <span className='active_nav inline-block px-[21px] py-1.5'>1 Year</span>
             </div>
             <hr className='my-3.5 border-[#E4E4E4]' />
-            <div className='flex items-center pr-5 pl-3'>
+            <div className='bar_chart_wrapper'>
               <CNavigate className='mr-5 cursor-pointer text-[#919191]' />
               <BarChart />
               <CNavigate className='mx-2.5 rotate-180 cursor-pointer' />

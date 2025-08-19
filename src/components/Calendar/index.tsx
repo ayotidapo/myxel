@@ -21,7 +21,7 @@ const Calendar = () => {
           <h3 className='text-[16px] font-semibold'> November 2023 </h3>
           <Navigate className='rotate-180' />
         </div>
-        <table className='h-[827px] w-[400px]'>
+        <table className='xxs:w-full h-[827px] md:w-[400px]'>
           <thead className='text-[7.58px]'>
             <tr className='h-[20.36px]'>
               <th>SUN</th>
